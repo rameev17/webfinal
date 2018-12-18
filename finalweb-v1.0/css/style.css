@@ -1,0 +1,104 @@
+body{
+	background-color: white;
+}
+body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      background:#fff;
+    }
+    .container{
+    	width: 80%;
+    	background: #262626;
+    	text-align: center;
+    	position: relative;
+    	left: 10%;
+    }
+    .swiper-wrapper{
+    }
+img{
+	width: 100%;
+	height: 100%;
+}
+h1{
+	font-family: Gidolinya;
+}
+a{
+	text-decoration: none;
+}
+ @font-face {
+    font-family: Gidole;
+    src: url(ttf/Gidole-Regular.ttf);
+   }
+
+.background .navbar{
+	padding: 10px;
+	background-color: #cfcfcf;
+	display: flex;
+	height: 5%;
+
+}
+.background .navbar .navbarmenu{
+	display: flex;
+	font-family: Gidolinya;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 20%;
+	color: #464d56;
+}
+.background .navbar .navbarmenu a{
+	padding-left: 100px;
+		color: #464d56;
+
+}
+.background .navbar .navbarmenu a:hover{
+	padding-left: 100px;
+		color: black;
+
+}
+.background .navbar .navbarmenu #sigin{
+	padding-left: 100px;
+		color: #009e95;
+		position: relative;
+		left: 200px;
+
+}
+.background .navbar .navbarmenu #sigin:hover{
+	padding-left: 100px;
+		color: #0a524e;
+		position: relative;
+		left: 200px;
+
+}
+.background .navbar .logo img{
+	width: 125px;
+	height:75px;
+}
+.infhelp{
+	width: 90%;
+	position: relative;
+	left: 37%;
+	padding: 10px;
+	text-align: center;
+	width: 20%;
+}
+.infhelp .text{
+	color: #464d56;
+	background-color: #f6c607;
+	border-radius: 30px;
+
+
+}
