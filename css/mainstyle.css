@@ -1,0 +1,62 @@
+a{
+	text-decoration: none;
+}
+body{
+	 margin: 0;
+      padding: 0;
+      background: linear-gradient(90deg, #8c8888, #494848);
+}
+.background .navbar{
+	padding: 10px;
+	background-color: #333333;
+	display: flex;
+	height: 5%;
+
+}
+.background .navbar .navbarmenu{
+	display: flex;
+	font-family: Gidolinya;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 30%;
+	color: #464d56;
+	height: 50px;
+}
+.background .navbar .navbarmenu a{
+	padding-left: 100px;
+		color: white;
+
+}
+.background .navbar .navbarmenu a:hover{
+	padding-left: 100px;
+		color: black;
+
+}
+
+.background .navbar .logo img{
+	width: 125px;
+	height:75px;
+	position: fixed;
+}
+.cards{
+	padding: 50px;
+	text-align: center;
+}
+.card{
+	width: 200px;
+	height: 400px;
+	display: inline-block;
+	text-align: center;
+	background-color: black;
+	color: white;
+
+
+}
+.card {
+	width: 200px;
+	height: 200px;
+}
+#image1{
+	width: 1000px;
+	height: 200px;
+}
