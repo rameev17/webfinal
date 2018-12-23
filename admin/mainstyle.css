@@ -1,0 +1,40 @@
+a{
+
+}
+body{
+	 margin: 0;
+      padding: 0;
+      background: linear-gradient(90deg, #8c8888, #494848);
+}
+.background .navbar{
+	padding: 10px;
+	background-color: #333333;
+	display: flex;
+	height: 5%;
+
+}
+.background .navbar .navbarmenu{
+	display: flex;
+	font-family: Gidolinya;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-left: 0%;
+	color: #464d56;
+	height: 50px;
+	left: 50%;
+}
+.background .navbar .navbarmenu a{
+	padding-left: 150px;
+		color: white;
+}
+.background .navbar .navbarmenu a:hover{
+	padding-left: 100px;
+		color: black;
+
+}
+
+.background .navbar .logo img{
+	width: 125px;
+	height:75px;
+	position: fixed;
+}
